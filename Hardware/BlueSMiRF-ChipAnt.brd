@@ -128,8 +128,8 @@
 <text x="38.989" y="1.143" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">RTS-O</text>
 <text x="38.989" y="13.843" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">CTS-I</text>
 <text x="38.989" y="3.683" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">RX-I</text>
-<text x="33.274" y="0.762" size="0.8128" layer="21" font="vector" ratio="15">Stat</text>
-<text x="31.242" y="14.732" size="0.8128" layer="21" font="vector" ratio="15">Connect</text>
+<text x="33.274" y="0.889" size="0.8128" layer="21" font="vector" ratio="15">Stat</text>
+<text x="31.369" y="13.081" size="0.8128" layer="21" font="vector" ratio="15">Connect</text>
 <text x="25.781" y="13.462" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">PIO4</text>
 <text x="15.748" y="0.381" size="0.8128" layer="16" font="vector" ratio="25" rot="MR0">V16</text>
 <rectangle x1="13.97" y1="8.89" x2="15.24" y2="10.16" layer="22"/>
@@ -140,7 +140,8 @@
 <text x="12.7" y="3.81" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">HID</text>
 <text x="17.78" y="11.43" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">CTS</text>
 <text x="17.78" y="10.16" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">RTS</text>
-<text x="34.29" y="-8.89" size="1.778" layer="48" font="vector" ratio="15">J. Lindblom, T. Klopfenstein</text>
+<text x="34.29" y="-8.89" size="1.778" layer="48" font="vector" ratio="15">J. Lindblom</text>
+<text x="33.9725" y="-11.43" size="1.778" layer="48" font="vector" ratio="15">T. Klopfenstein</text>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -882,6 +883,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="0.1794" y="-0.4331"/>
 </polygon>
 </package>
+<package name="REVISION">
+<text x="0" y="0" size="1.778" layer="27">Revision By: </text>
+</package>
 </packages>
 </library>
 <library name="SparkFun-RF">
@@ -1143,9 +1147,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="37.1221" y="8.7376" size="0.4064" layer="25" rot="R270"/>
 <attribute name="VALUE" x="37.1348" y="10.0203" size="0.4064" layer="27" rot="R270"/>
 </element>
-<element name="R5" library="SparkFun" package="0603-RES" value="10K" x="33.655" y="13.97" smashed="yes">
-<attribute name="NAME" x="32.6898" y="12.9667" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="33.6423" y="12.9794" size="0.4064" layer="27"/>
+<element name="R5" library="SparkFun" package="0603-RES" value="10K" x="33.655" y="14.9225" smashed="yes">
+<attribute name="NAME" x="32.6898" y="13.9192" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="33.6423" y="13.9319" size="0.4064" layer="27"/>
 </element>
 <element name="D2" library="SparkFun" package="LED-0603" value="Green" x="37.465" y="13.462" smashed="yes" rot="R90">
 <attribute name="NAME" x="37.7698" y="14.5161" size="0.4064" layer="25" rot="R180"/>
@@ -1173,6 +1177,7 @@ design rules under a new name.</description>
 <element name="TP1" library="SparkFun" package="PAD.03X.05" value="" x="21.59" y="3.81" rot="MR0"/>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="3.067878125" y="-8.89"/>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="17.78" y="3.81" rot="MR0"/>
+<element name="U$2" library="SparkFun-Aesthetics" package="REVISION" value="REVISION" x="14.605" y="-11.43"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1291,22 +1296,19 @@ design rules under a new name.</description>
 <contactref element="U1" pad="13"/>
 <wire x1="22.999" y1="14.614" x2="24.774" y2="14.614" width="0.254" layer="1"/>
 <wire x1="24.774" y1="14.614" x2="25.4" y2="15.24" width="0.254" layer="1"/>
-<wire x1="32.385" y1="13.97" x2="31.115" y2="15.24" width="0.254" layer="1"/>
-<wire x1="31.115" y1="15.24" x2="25.4" y2="15.24" width="0.254" layer="1"/>
-<wire x1="32.805" y1="13.97" x2="32.385" y2="13.97" width="0.254" layer="1"/>
+<wire x1="32.805" y1="14.9225" x2="32.0675" y2="14.9225" width="0.254" layer="1"/>
+<wire x1="32.0675" y1="14.9225" x2="31.75" y2="15.24" width="0.254" layer="1"/>
+<wire x1="31.75" y1="15.24" x2="25.4" y2="15.24" width="0.254" layer="1"/>
 </signal>
 <signal name="RX_5V">
 <contactref element="R5" pad="2"/>
 <contactref element="JP1" pad="5"/>
 <via x="33.274" y="12.446" extent="1-16" drill="0.508"/>
-<wire x1="34.505" y1="13.97" x2="34.505" y2="13.755" width="0.254" layer="1"/>
-<wire x1="34.505" y1="13.755" x2="34.29" y2="13.54" width="0.254" layer="1"/>
-<wire x1="34.29" y1="13.54" x2="34.29" y2="12.7" width="0.254" layer="1"/>
-<wire x1="34.29" y1="12.7" x2="34.036" y2="12.446" width="0.254" layer="1"/>
-<wire x1="34.036" y1="12.446" x2="33.274" y2="12.446" width="0.254" layer="1"/>
 <wire x1="33.274" y1="12.446" x2="33.274" y2="11.176" width="0.254" layer="16"/>
 <wire x1="33.274" y1="11.176" x2="40.259" y2="4.191" width="0.254" layer="16"/>
 <wire x1="40.259" y1="4.191" x2="40.64" y2="4.191" width="0.254" layer="16"/>
+<wire x1="34.505" y1="14.9225" x2="34.505" y2="13.677" width="0.254" layer="1"/>
+<wire x1="34.505" y1="13.677" x2="33.274" y2="12.446" width="0.254" layer="1"/>
 </signal>
 <signal name="VCC">
 <contactref element="R8" pad="1"/>

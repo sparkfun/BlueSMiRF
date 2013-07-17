@@ -4141,6 +4141,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="0.4186" y="-1.0105"/>
 </polygon>
 </package>
+<package name="REVISION">
+<text x="0" y="0" size="1.778" layer="27">Revision By: </text>
+</package>
 </packages>
 <symbols>
 <symbol name="LETTER_L">
@@ -7735,6 +7738,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="0.6834" y="-1.65"/>
 </polygon>
 </symbol>
+<symbol name="REVISION">
+<text x="0" y="0" size="2.54" layer="94">Revision By: </text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-LETTER" prefix="FRAME">
@@ -7769,6 +7775,18 @@ Standard 8.5x11 US Letter frame</description>
 </technologies>
 </device>
 <device name="L" package="OSHW-LOGO-L">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="REVISION">
+<gates>
+<gate name="G$1" symbol="REVISION" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="REVISION">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7975,6 +7993,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="JP4" library="SparkFun" deviceset="FIDUCIAL" device="1X2"/>
 <part name="TP1" library="SparkFun" deviceset="TEST-POINT" device="3X5" value=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
+<part name="U$2" library="SparkFun-Aesthetics" deviceset="REVISION" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7984,8 +8003,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="147.32" y1="81.28" x2="248.92" y2="81.28" width="0.2032" layer="94"/>
 <text x="152.4" y="177.8" size="3.048" layer="97">Level shifting</text>
 <text x="152.4" y="73.66" size="3.048" layer="97">Headers</text>
-<text x="162.56" y="7.62" size="2.54" layer="97">J. Lindblom, T. Klopfenstein</text>
+<text x="171.45" y="11.176" size="2.54" layer="97">J. Lindblom</text>
 <text x="241.3" y="7.62" size="2.54" layer="97">v16</text>
+<text x="174.498" y="6.35" size="2.54" layer="97">T. Klopfenstein</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -8043,6 +8063,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="JP4" gate="G$1" x="238.76" y="25.4"/>
 <instance part="TP1" gate="G$1" x="93.98" y="152.4"/>
 <instance part="LOGO1" gate="G$1" x="134.62" y="10.16"/>
+<instance part="U$2" gate="G$1" x="148.59" y="6.604"/>
 </instances>
 <busses>
 </busses>
