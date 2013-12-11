@@ -10,12 +10,15 @@ Repository Contents
 -------------------
 * **/Hardware** - All Eagle design files (.brd, .sch)
 
-Product Versions
-----------------
+Current Product Versions
+------------------------
 * [WRL-10269](https://www.sparkfun.com/products/10269)- BlueSMiRF Silver: RN-42 module
-* [WRL-10268](https://www.sparkfun.com/products/10268)- BlueSMiRF Gold: RN-41 Module
+* [WRL-12582](https://www.sparkfun.com/products/12582)- BlueSMiRF Gold: RN-41 Module
 * [WRL-10938](https://www.sparkfun.com/products/10938)- BlueSMiRF HID: RN-42 module loaded with Human Interface Device firmware
 
+Retired Product Versions
+------------------------
+* [WRL-10268](https://www.sparkfun.com/products/10268)- BlueSMiRF Gold: RN-41 Module v16
 
 License Information
 -------------------
