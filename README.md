@@ -1,3 +1,10 @@
+_**NOTE:** This version of the product has been retired from our catalog. However, we do have the [BlueSMIRF V2 with headers](https://www.sparkfun.com/products/23287) and the [BlueSMiRF V2 PTH version available](https://www.sparkfun.com/products/24113) available!_
+
+_Please check out some of these resources to see how other users are still hacking and improving on this version of the product._
+
+* [SparkFun Forum](https://forum.sparkfun.com/)
+* [Comments Here on GitHub](https://github.com/sparkfun/BlueSMiRF/issues)
+
 BlueSMiRF
 =========
 
